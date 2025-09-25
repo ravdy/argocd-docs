@@ -12,8 +12,8 @@ To set up ArgoCD on Amazon EKS, follow the steps below:
 
 ### Install Terraform on Windows
 
-1. Go to the official Terraform download page:  
-https://developer.hashicorp.com/terraform/downloads
+1. Go to the official Terraform download page:    
+   https://developer.hashicorp.com/terraform/downloads
 
 2. Download the Windows 64-bit ZIP file.
 
@@ -43,14 +43,16 @@ https://developer.hashicorp.com/terraform/downloads
    ```powershell
    curl -LO "https://dl.k8s.io/release/v1.32.0/bin/windows/amd64/kubectl.exe"
    ```
-1. Move the binary to a directory in your system PATH:
-   ```powershell
-   move .\kubectl.exe C:\Windows\System32\
+2. Move the binary to a folder in your PATH (for example, C:\kubectl):
    ```
-1. Verify installation:
-   ```powershell
-   kubectl version --client
-   ```
+   mkdir 'C:\Program Files'
+   move .\kubectl.exe 'C:\Program Files'
+
+3. Add the folder to PATH (if not already done):
+
+   - Open System Properties → Environment Variables.
+
+   - Under System variables, select Path → Edit → Add C:\kubectl.
 
 1. Follow the official AWS documentation:
    👉 [Install AWS CLI on Windows](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
