@@ -41,7 +41,7 @@ To set up ArgoCD on Amazon EKS, follow the steps below:
 ## 🔹 Install kubectl on Windows
 1. Download the latest stable kubectl binary:
    ```powershell
-   curl -LO "https://dl.k8s.io/release/v1.32.0/bin/windows/amd64/kubectl.exe"
+   wget "https://dl.k8s.io/release/v1.33.0/bin/windows/amd64/kubectl.exe"
    ```
 2. Move the binary to a folder in your PATH (for example, C:\kubectl):
    ```
