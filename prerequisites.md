@@ -52,10 +52,10 @@ https://developer.hashicorp.com/terraform/downloads
    kubectl version --client
    ```
 
-## 🔹 Install AWS CLI on Windows
 1. Follow the official AWS documentation:
-   👉 Install AWS CLI on Windows [https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html]
+   👉 [Install AWS CLI onWindows](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
+   
 # For Linux Environments
 
 ##  Install terraform on Linux
