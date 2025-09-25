@@ -45,8 +45,8 @@ To set up ArgoCD on Amazon EKS, follow the steps below:
    ```
 2. Move the binary to a folder in your PATH (for example, C:\kubectl):
    ```
-   mkdir 'C:\Program Files'
-   move .\kubectl.exe 'C:\Program Files'
+   mkdir 'C:\Program Files\kubectl'
+   move .\kubectl.exe 'C:\Program Files\kubectl'
 
 3. Add the folder to PATH (if not already done):
 
