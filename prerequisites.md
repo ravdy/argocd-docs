@@ -12,7 +12,7 @@ To set up ArgoCD on Amazon EKS, follow the steps below:
 
 ### Install Terraform on Windows
 
-1. Go to the official Terraform download page:
+1. Go to the official Terraform download page:  
 https://developer.hashicorp.com/terraform/downloads
 
 2. Download the Windows 64-bit ZIP file.
@@ -53,9 +53,9 @@ https://developer.hashicorp.com/terraform/downloads
    ```
 
 1. Follow the official AWS documentation:
-   👉 [Install AWS CLI onWindows](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+   👉 [Install AWS CLI on Windows](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-   
+
 # For Linux Environments
 
 ##  Install terraform on Linux
